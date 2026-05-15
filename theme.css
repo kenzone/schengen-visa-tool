@@ -161,8 +161,55 @@ textarea:focus {
 textarea { min-height: 72px; }
 
 /* === 7. Radios / Checks ============================== */
+.ri, .ci {
+  font-size: 14px;
+  padding: 9px 14px;
+  border-radius: 6px;
+  border: 1.5px solid #CBD5E1;
+  background: #FFFFFF;
+  transition: border-color 200ms ease, background 200ms ease;
+}
+.ri:hover, .ci:hover {
+  border-color: #1E3A5F;
+  background: #EEF2FF;
+}
+.ri input, .ci input {
+  accent-color: #1E3A5F;
+  width: 14px;
+  height: 14px;
+}
 
 /* === 8. Buttons ====================================== */
+.btn {
+  font-size: 15px;
+  padding: 11px 20px;
+  border-radius: 6px;
+  transition: background 200ms ease, border-color 200ms ease, color 200ms ease;
+}
+.btn-p {
+  background: #1E3A5F;
+  color: #FFFFFF;
+}
+.btn-p:hover { background: #15304D; }
+.btn-s {
+  background: #FFFFFF;
+  color: #334155;
+  border: 1.5px solid #CBD5E1;
+}
+.btn-s:hover {
+  background: #EEF2FF;
+  border-color: #1E3A5F;
+  color: #1E3A5F;
+}
+.btn-dl {
+  font-size: 16px;
+  background: #059669;
+  color: #FFFFFF;
+  border-radius: 8px;
+  padding: 12px 26px;
+}
+.btn-dl:hover { background: #047857; }
+.btn-dl:disabled { opacity: .5; cursor: not-allowed; }
 
 /* === 9. Country Cards ================================ */
 
