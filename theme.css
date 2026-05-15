@@ -116,6 +116,7 @@ body > div[style*="border-bottom:2px solid #edf2ff"] #save-status {
   padding: 16px 0 12px;
   border-top: 1px dashed #E4E7EB;
 }
+.nav { margin-top: 24px; }
 .grid { gap: 12px; }
 .fg { gap: 6px; }
 
