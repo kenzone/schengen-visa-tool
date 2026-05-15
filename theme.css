@@ -269,5 +269,20 @@ textarea { min-height: 72px; }
 }
 
 /* === 11. Responsive ================================== */
+@media (max-width: 580px) {
+  .hdr { padding: 16px; }
+  .container { padding: 16px 12px 64px; }
+}
+@media (min-width: 768px) {
+  .container { max-width: 920px; }
+  .hdr h1 { font-size: 22px; }
+}
 
 /* === 12. Reduced Motion ============================== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
