@@ -212,8 +212,61 @@ textarea { min-height: 72px; }
 .btn-dl:disabled { opacity: .5; cursor: not-allowed; }
 
 /* === 9. Country Cards ================================ */
+.country-card {
+  padding: 14px 12px;
+  border-radius: 8px;
+  border: 2px solid #CBD5E1;
+  transition: border-color 200ms ease, background 200ms ease, box-shadow 200ms ease;
+}
+.country-card:hover {
+  border-color: #1E3A5F;
+  background: #EEF2FF;
+  transform: none;
+  box-shadow: 0 1px 3px rgba(15,23,42,.08);
+}
+.country-card.selected {
+  border-color: #1E3A5F;
+  background: #EEF2FF;
+  box-shadow: 0 0 0 3px rgba(30,58,95,.18);
+}
+.country-card.no-pdf:hover {
+  border-color: #CBD5E1;
+  background: #FFFFFF;
+  transform: none;
+  box-shadow: none;
+}
+.country-card.is-link {
+  border-color: #F59E0B;
+}
+.country-card.is-link:hover {
+  border-color: #D97706;
+  background: #FFFBEB;
+  transform: none;
+  box-shadow: 0 1px 3px rgba(15,23,42,.08);
+}
+.country-name { font-size: 14px; }
+.country-status { font-size: 12px; }
+.status-ready { color: #059669; }
+.status-pending { color: #F59E0B; }
+.status-link { color: #D97706; }
 
 /* === 10. Sumbox / Tip ================================ */
+.sumbox {
+  background: #F0FDF4;
+  border: 1.5px solid #10B981;
+  border-radius: 8px;
+}
+.sumbox h3 {
+  font-size: 13px;
+  color: #065F46;
+}
+.sumlbl { color: #065F46; }
+.sumval { color: #047857; }
+.sumrow { font-size: 12px; }
+.tip {
+  font-size: 12px;
+  border-radius: 6px;
+}
 
 /* === 11. Responsive ================================== */
 
