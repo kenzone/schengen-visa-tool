@@ -91,8 +91,74 @@ body > div[style*="border-bottom:2px solid #edf2ff"] #save-status {
 }
 
 /* === 5. Cards & Sections ============================= */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(15,23,42,.05);
+  margin-bottom: 16px;
+  padding: 20px;
+}
+.ctitle {
+  font-size: 18px;
+  color: #1E3A5F;
+  border-bottom: 2px solid #EEF2FF;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+.cbadge {
+  font-size: 12px;
+  background: #EEF2FF;
+  color: #1E3A5F;
+  padding: 2px 8px;
+}
+.divider {
+  font-size: 14px;
+  color: #475569;
+  padding: 16px 0 12px;
+  border-top: 1px dashed #E4E7EB;
+}
+.grid { gap: 12px; }
+.fg { gap: 6px; }
 
 /* === 6. Form Fields ================================== */
+label {
+  font-size: 14px;
+  color: #334155;
+}
+.fn {
+  font-size: 12px;
+  background: #EEF2FF;
+  color: #1E3A5F;
+  padding: 1px 6px;
+}
+.hint {
+  font-size: 12px;
+  line-height: 1.45;
+  color: #64748B;
+}
+.req { color: #DC2626; }
+input[type=text],
+input[type=date],
+input[type=email],
+input[type=tel],
+select,
+textarea {
+  font-size: 16px;
+  padding: 11px 12px;
+  border: 1.5px solid #CBD5E1;
+  border-radius: 6px;
+  background: #FFFFFF;
+  color: #0F172A;
+  transition: border-color 200ms ease, box-shadow 200ms ease;
+}
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #1E3A5F;
+  box-shadow: 0 0 0 3px rgba(30,58,95,.18);
+  background: #FFFFFF;
+}
+textarea { min-height: 72px; }
 
 /* === 7. Radios / Checks ============================== */
 
