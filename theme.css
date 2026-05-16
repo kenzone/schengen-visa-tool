@@ -506,3 +506,49 @@ body > div[style*="border-bottom:2px solid #edf2ff"] > span:not(#save-status) {
 .hdr {
   padding-right: 280px !important;
 }
+
+/* 14.B Diplomatic button colors */
+body > div[style*="border-bottom:2px solid #edf2ff"] button {
+  font-size: 11px !important;
+  padding: 5px 10px !important;
+  border-radius: 3px !important;
+  font-family: 'Songti SC', 'STSong', SimSun, Georgia, serif !important;
+  letter-spacing: 0.04em !important;
+  font-weight: 500 !important;
+}
+body > div[style*="border-bottom:2px solid #edf2ff"] button[onclick*="saveData"] {
+  background: transparent !important;
+  color: #C9A961 !important;
+  border: 1px solid #B8860B !important;
+}
+body > div[style*="border-bottom:2px solid #edf2ff"] button[onclick*="saveData"]:hover {
+  background: #B8860B !important;
+  color: #18181B !important;
+}
+body > div[style*="border-bottom:2px solid #edf2ff"] button[onclick*="loadData"] {
+  background: transparent !important;
+  color: rgba(255,255,255,.75) !important;
+  border: 1px solid rgba(255,255,255,.25) !important;
+}
+body > div[style*="border-bottom:2px solid #edf2ff"] button[onclick*="loadData"]:hover {
+  background: rgba(255,255,255,.08) !important;
+  color: #FFFFFF !important;
+  border-color: rgba(255,255,255,.5) !important;
+}
+body > div[style*="border-bottom:2px solid #edf2ff"] button[onclick*="clearData"] {
+  background: transparent !important;
+  color: #FCA5A5 !important;
+  border: 1px solid rgba(252,165,165,.35) !important;
+}
+body > div[style*="border-bottom:2px solid #edf2ff"] button[onclick*="clearData"]:hover {
+  background: rgba(252,165,165,.10) !important;
+  color: #FECACA !important;
+  border-color: rgba(252,165,165,.6) !important;
+}
+body > div[style*="border-bottom:2px solid #edf2ff"] #save-status {
+  font-size: 10px !important;
+  color: #C9A961 !important;
+  font-style: italic !important;
+  font-family: 'Songti SC', 'STSong', SimSun, Georgia, serif !important;
+  letter-spacing: 0.05em !important;
+}
