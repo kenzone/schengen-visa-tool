@@ -253,16 +253,16 @@ textarea { min-height: 72px; }
 
 /* === 10. Sumbox / Tip ================================ */
 .sumbox {
-  background: #F0FDF4;
-  border: 1.5px solid #10B981;
+  background: #FAFAFA;
+  border: 1.5px solid #E4E4E7;
   border-radius: 8px;
 }
 .sumbox h3 {
   font-size: 13px;
-  color: #065F46;
+  color: #18181B;
 }
-.sumlbl { color: #065F46; }
-.sumval { color: #047857; }
+.sumlbl { color: #3F3F46; }
+.sumval { color: #18181B; }
 .sumrow { font-size: 12px; }
 .tip {
   font-size: 12px;
