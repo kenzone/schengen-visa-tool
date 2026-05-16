@@ -552,3 +552,20 @@ body > div[style*="border-bottom:2px solid #edf2ff"] #save-status {
   font-family: 'Songti SC', 'STSong', SimSun, Georgia, serif !important;
   letter-spacing: 0.05em !important;
 }
+
+/* 14.C Mobile responsive fallback */
+@media (max-width: 580px) {
+  body > div[style*="border-bottom:2px solid #edf2ff"] {
+    position: static !important;
+    top: auto !important;
+    right: auto !important;
+    background: #1F1F23 !important;
+    padding: 8px 16px !important;
+    flex-wrap: wrap !important;
+    border-bottom: 1px solid rgba(184,134,11,.3) !important;
+    z-index: auto;
+  }
+  .hdr {
+    padding-right: 16px !important;
+  }
+}
