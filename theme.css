@@ -79,14 +79,14 @@ body > div[style*="border-bottom:2px solid #edf2ff"] #save-status {
   font-size: 13px;
   transition: background 200ms ease, color 200ms ease;
 }
-.dot.active { background: #1E3A5F; }
-.dot.done   { background: #059669; }
-.dot.idle   { background: #E4E7EB; color: #64748B; }
-.ln.done    { background: #059669; }
-.ln.idle    { background: #E4E7EB; }
+.dot.active { background: #18181B; }
+.dot.done   { background: #16A34A; }
+.dot.idle   { background: #E4E4E7; color: #71717A; }
+.ln.done    { background: #16A34A; }
+.ln.idle    { background: #E4E4E7; }
 .slabel {
   font-size: 12px;
-  color: #64748B;
+  color: #71717A;
   margin-left: 8px;
 }
 
