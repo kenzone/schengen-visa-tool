@@ -30,8 +30,9 @@ button { line-height: 1; }
   box-shadow: 0 1px 3px rgba(15,23,42,.08);
 }
 .hdr h1 {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.3;
+  letter-spacing: -0.01em;
 }
 .hdr p {
   font-size: 13px;
@@ -95,6 +96,7 @@ body > div[style*="border-bottom:2px solid #edf2ff"] #save-status {
   font-size: 12px;
   color: #71717A;
   margin-left: 8px;
+  letter-spacing: 0.02em;
 }
 
 /* === 5. Cards & Sections ============================= */
@@ -105,11 +107,12 @@ body > div[style*="border-bottom:2px solid #edf2ff"] #save-status {
   padding: 24px;
 }
 .ctitle {
-  font-size: 18px;
+  font-size: 19px;
   color: #18181B;
   border-bottom: 2px solid #F4F4F5;
   padding-bottom: 16px;
   margin-bottom: 20px;
+  letter-spacing: -0.005em;
 }
 .cbadge {
   font-size: 12px;
@@ -131,12 +134,15 @@ body > div[style*="border-bottom:2px solid #edf2ff"] #save-status {
 label {
   font-size: 14px;
   color: #3F3F46;
+  letter-spacing: 0.01em;
 }
 .fn {
   font-size: 12px;
   background: #F4F4F5;
   color: #18181B;
   padding: 1px 6px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 .hint {
   font-size: 12px;
@@ -283,7 +289,7 @@ textarea { min-height: 72px; }
 }
 @media (min-width: 768px) {
   .container { max-width: 920px; }
-  .hdr h1 { font-size: 22px; }
+  .hdr h1 { font-size: 24px; }
 }
 
 /* === 12. Reduced Motion ============================== */
