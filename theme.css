@@ -569,3 +569,8 @@ body > div[style*="border-bottom:2px solid #edf2ff"] #save-status {
     padding-right: 16px !important;
   }
 }
+
+/* === 15. Header subtitle suppression =========== */
+.hdr p {
+  display: none !important;
+}
