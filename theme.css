@@ -123,18 +123,18 @@ body > div[style*="border-bottom:2px solid #edf2ff"] #save-status {
 /* === 6. Form Fields ================================== */
 label {
   font-size: 14px;
-  color: #334155;
+  color: #3F3F46;
 }
 .fn {
   font-size: 12px;
-  background: #EEF2FF;
-  color: #1E3A5F;
+  background: #F4F4F5;
+  color: #18181B;
   padding: 1px 6px;
 }
 .hint {
   font-size: 12px;
   line-height: 1.45;
-  color: #64748B;
+  color: #71717A;
 }
 .req { color: #DC2626; }
 input[type=text],
@@ -145,18 +145,18 @@ select,
 textarea {
   font-size: 16px;
   padding: 11px 12px;
-  border: 1.5px solid #CBD5E1;
+  border: 1.5px solid #E4E4E7;
   border-radius: 6px;
   background: #FFFFFF;
-  color: #0F172A;
+  color: #09090B;
   transition: border-color 200ms ease, box-shadow 200ms ease;
 }
 input:focus,
 select:focus,
 textarea:focus {
   outline: none;
-  border-color: #1E3A5F;
-  box-shadow: 0 0 0 3px rgba(30,58,95,.18);
+  border-color: #2563EB;
+  box-shadow: 0 0 0 3px rgba(37,99,235,.15);
   background: #FFFFFF;
 }
 textarea { min-height: 72px; }
