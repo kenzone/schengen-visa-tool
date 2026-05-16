@@ -482,3 +482,27 @@ input:focus, select:focus, textarea:focus {
   color: #B8860B;
   font-weight: 500;
 }
+
+/* === 14. Toolbar Header Integration ============ */
+
+/* 14.A Toolbar floats to header top-right + hide label */
+body > div[style*="border-bottom:2px solid #edf2ff"] {
+  position: absolute !important;
+  top: 14px !important;
+  right: 20px !important;
+  background: transparent !important;
+  border-bottom: none !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important;
+  gap: 6px !important;
+  z-index: 10;
+}
+body > div[style*="border-bottom:2px solid #edf2ff"] > span:not(#save-status) {
+  display: none !important;
+}
+.hdr {
+  padding-right: 280px !important;
+}
