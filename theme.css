@@ -224,6 +224,10 @@ textarea { min-height: 72px; }
 }
 .btn-dl:hover { background: #27272A; }
 .btn-dl:disabled { opacity: .5; cursor: not-allowed; }
+.btn:active, .btn-dl:active {
+  transform: scale(0.98);
+  transition: transform 120ms cubic-bezier(0.16, 1, 0.3, 1);
+}
 
 /* === 9. Country Cards ================================ */
 .country-card {
@@ -235,8 +239,8 @@ textarea { min-height: 72px; }
 .country-card:hover {
   border-color: #18181B;
   background: #FAFAFA;
-  transform: none;
-  box-shadow: 0 1px 3px rgba(15,23,42,.08);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(15,23,42,.06);
 }
 .country-card.selected {
   border-color: #18181B;
