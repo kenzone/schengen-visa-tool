@@ -99,22 +99,22 @@ body > div[style*="border-bottom:2px solid #edf2ff"] #save-status {
 }
 .ctitle {
   font-size: 18px;
-  color: #1E3A5F;
-  border-bottom: 2px solid #EEF2FF;
+  color: #18181B;
+  border-bottom: 2px solid #F4F4F5;
   padding-bottom: 12px;
   margin-bottom: 16px;
 }
 .cbadge {
   font-size: 12px;
-  background: #EEF2FF;
-  color: #1E3A5F;
+  background: #F4F4F5;
+  color: #18181B;
   padding: 2px 8px;
 }
 .divider {
   font-size: 14px;
-  color: #475569;
+  color: #3F3F46;
   padding: 16px 0 12px;
-  border-top: 1px dashed #E4E7EB;
+  border-top: 1px dashed #E4E4E7;
 }
 .nav { margin-top: 24px; }
 .grid { gap: 12px; }
