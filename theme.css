@@ -54,7 +54,7 @@ body > div[style*="border-bottom:2px solid #edf2ff"] button {
   font-size: 14px !important;
   padding: 10px 18px !important;
   border-radius: 6px !important;
-  transition: background 200ms ease !important;
+  transition: background 200ms cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 body > div[style*="border-bottom:2px solid #edf2ff"] button[onclick*="saveData"] {
   background: #18181B !important;
@@ -85,7 +85,7 @@ body > div[style*="border-bottom:2px solid #edf2ff"] #save-status {
   width: 36px;
   height: 36px;
   font-size: 13px;
-  transition: background 200ms ease, color 200ms ease;
+  transition: background 200ms cubic-bezier(0.16, 1, 0.3, 1), color 200ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 .dot.active { background: #18181B; }
 .dot.done   { background: #16A34A; }
@@ -162,7 +162,7 @@ textarea {
   border-radius: 6px;
   background: #FFFFFF;
   color: #09090B;
-  transition: border-color 200ms ease, box-shadow 200ms ease;
+  transition: border-color 200ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 200ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 input:focus,
 select:focus,
@@ -181,7 +181,7 @@ textarea { min-height: 72px; }
   border-radius: 6px;
   border: 1.5px solid #E4E4E7;
   background: #FFFFFF;
-  transition: border-color 200ms ease, background 200ms ease;
+  transition: border-color 200ms cubic-bezier(0.16, 1, 0.3, 1), background 200ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 .ri:hover, .ci:hover {
   border-color: #18181B;
@@ -198,7 +198,7 @@ textarea { min-height: 72px; }
   font-size: 15px;
   padding: 11px 20px;
   border-radius: 6px;
-  transition: background 200ms ease, border-color 200ms ease, color 200ms ease;
+  transition: background 200ms cubic-bezier(0.16, 1, 0.3, 1), border-color 200ms cubic-bezier(0.16, 1, 0.3, 1), color 200ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 .btn-p {
   background: #18181B;
@@ -230,7 +230,7 @@ textarea { min-height: 72px; }
   padding: 14px 12px;
   border-radius: 8px;
   border: 2px solid #E4E4E7;
-  transition: border-color 200ms ease, background 200ms ease, box-shadow 200ms ease;
+  transition: border-color 200ms cubic-bezier(0.16, 1, 0.3, 1), background 200ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 200ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 .country-card:hover {
   border-color: #18181B;
