@@ -101,15 +101,15 @@ body > div[style*="border-bottom:2px solid #edf2ff"] #save-status {
 .card {
   border-radius: 10px;
   box-shadow: 0 1px 2px rgba(15,23,42,.05);
-  margin-bottom: 16px;
-  padding: 20px;
+  margin-bottom: 20px;
+  padding: 24px;
 }
 .ctitle {
   font-size: 18px;
   color: #18181B;
   border-bottom: 2px solid #F4F4F5;
-  padding-bottom: 12px;
-  margin-bottom: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
 }
 .cbadge {
   font-size: 12px;
@@ -124,7 +124,7 @@ body > div[style*="border-bottom:2px solid #edf2ff"] #save-status {
   border-top: 1px dashed #E4E4E7;
 }
 .nav { margin-top: 24px; }
-.grid { gap: 12px; }
+.grid { gap: 14px; }
 .fg { gap: 6px; }
 
 /* === 6. Form Fields ================================== */
