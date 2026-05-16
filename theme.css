@@ -360,3 +360,40 @@ textarea { min-height: 72px; }
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* 13.B Progress bar serif + dashed lines */
+.dot {
+  font-family: 'Songti SC', 'STSong', SimSun, Georgia, serif !important;
+  font-weight: 500;
+}
+.dot.active {
+  box-shadow:
+    0 0 0 1px #B8860B,
+    0 0 0 4px transparent,
+    0 0 0 5px #C9A961;
+}
+.ln {
+  background: transparent !important;
+  position: relative;
+  height: 2px;
+}
+.ln::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  border-top: 1px dashed;
+  transform: translateY(-0.5px);
+}
+.ln.done::before { border-top-color: #16A34A; }
+.ln.idle::before { border-top-color: #B8860B; opacity: 0.4; }
+.slabel {
+  font-family: 'Songti SC', 'STSong', SimSun, Georgia, serif;
+  font-style: italic;
+  letter-spacing: 0.04em;
+}
+.slabel::before {
+  content: "— ";
+  color: #B8860B;
+}
