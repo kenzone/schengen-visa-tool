@@ -166,16 +166,16 @@ textarea { min-height: 72px; }
   font-size: 14px;
   padding: 9px 14px;
   border-radius: 6px;
-  border: 1.5px solid #CBD5E1;
+  border: 1.5px solid #E4E4E7;
   background: #FFFFFF;
   transition: border-color 200ms ease, background 200ms ease;
 }
 .ri:hover, .ci:hover {
-  border-color: #1E3A5F;
-  background: #EEF2FF;
+  border-color: #18181B;
+  background: #FAFAFA;
 }
 .ri input, .ci input {
-  accent-color: #1E3A5F;
+  accent-color: #18181B;
   width: 14px;
   height: 14px;
 }
