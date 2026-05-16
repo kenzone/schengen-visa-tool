@@ -34,13 +34,13 @@ button { line-height: 1; }
 /* === 3. Top Storage Toolbar (override inline style) === */
 body > div[style*="border-bottom:2px solid #edf2ff"] {
   background: #FFFFFF !important;
-  border-bottom: 1px solid #E4E7EB !important;
+  border-bottom: 1px solid #E4E4E7 !important;
   padding: 12px 24px !important;
   box-shadow: none !important;
 }
 body > div[style*="border-bottom:2px solid #edf2ff"] > span {
   font-size: 14px !important;
-  color: #334155 !important;
+  color: #3F3F46 !important;
 }
 body > div[style*="border-bottom:2px solid #edf2ff"] button {
   font-size: 14px !important;
@@ -49,13 +49,13 @@ body > div[style*="border-bottom:2px solid #edf2ff"] button {
   transition: background 200ms ease !important;
 }
 body > div[style*="border-bottom:2px solid #edf2ff"] button[onclick*="saveData"] {
-  background: #1E3A5F !important;
+  background: #18181B !important;
   color: #FFFFFF !important;
 }
 body > div[style*="border-bottom:2px solid #edf2ff"] button[onclick*="loadData"] {
   background: #FFFFFF !important;
-  color: #334155 !important;
-  border: 1.5px solid #CBD5E1 !important;
+  color: #3F3F46 !important;
+  border: 1.5px solid #E4E4E7 !important;
 }
 body > div[style*="border-bottom:2px solid #edf2ff"] button[onclick*="clearData"] {
   background: #FEF2F2 !important;
@@ -64,7 +64,7 @@ body > div[style*="border-bottom:2px solid #edf2ff"] button[onclick*="clearData"
 }
 body > div[style*="border-bottom:2px solid #edf2ff"] #save-status {
   font-size: 12px !important;
-  color: #059669 !important;
+  color: #16A34A !important;
 }
 
 /* === 4. Progress Bar ================================= */
